@@ -3,7 +3,7 @@ module github.com/bhaaee/namelesslibR
 go 1.18
 
 require (
-	github.com/xtls/xray-core v1.5.4
+	github.com/xtls/xray-core v1.5.5
 	golang.org/x/mobile v0.0.0-20220325161704-447654d348e3
 	golang.org/x/sys v0.0.0-20220405210540-1e041c57c461
 )
