@@ -1,4 +1,4 @@
-package libv2ray
+package namelesslibR
 
 import (
 	"log"

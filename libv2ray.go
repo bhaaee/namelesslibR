@@ -1,3 +1,3 @@
-package libv2ray
+package namelesslibR
 
 //go:generate make all

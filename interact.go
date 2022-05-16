@@ -1,4 +1,4 @@
-package libv2ray
+package namelesslibR
 
 import (
 	"context"
@@ -17,9 +17,9 @@ import (
 	"github.com/2dust/AndroidLibXrayLite/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
-	v2core "github.com/xtls/xray-core/core"
 	v2net "github.com/xtls/xray-core/common/net"
 	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
+	v2core "github.com/xtls/xray-core/core"
 	v2stats "github.com/xtls/xray-core/features/stats"
 	v2serial "github.com/xtls/xray-core/infra/conf/serial"
 	_ "github.com/xtls/xray-core/main/distro/all"
@@ -111,7 +111,7 @@ func (v *V2RayPoint) StopLoop() (err error) {
 	return
 }
 
-//Delegate Funcation
+// QueryStats Delegate Funcation
 func (v V2RayPoint) QueryStats(tag string, direct string) int64 {
 	if v.statsManager == nil {
 		return 0
@@ -249,7 +249,7 @@ func CheckVersion() int {
 This func will return libv2ray binding version and V2Ray version used.
 */
 func CheckVersionX() string {
-	return fmt.Sprintf("Lib v%d, Xray-core v%s", CheckVersion(), v2core.Version())
+	return fmt.Sprintf("namelesslibR v%d, Xray-core v%s", CheckVersion(), v2core.Version())
 }
 
 func measureInstDelay(ctx context.Context, inst *v2core.Instance) (int64, error) {
