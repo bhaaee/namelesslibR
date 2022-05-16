@@ -6,7 +6,7 @@ import (
 
 	"log"
 
-	"github.com/mxbhaee/NamelessnetLibV/CoreI"
+	"github.com/bhaaee/namelesslibR/CoreI"
 )
 
 func (v *Escorting) EscortRun(proc string, pt []string, additionalEnv string) {

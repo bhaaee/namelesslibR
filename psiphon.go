@@ -10,11 +10,12 @@ import (
 	"strings"
 	"time"
 
-	psi "https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/psiphon"
+	"github.com/aztecrabbit/liblog"
+	"github.com/aztecrabbit/libproxyrotator"
+	"github.com/aztecrabbit/libutils"
 )
 
 var (
-
 	Loop          = true
 	DefaultConfig = &Config{
 		CoreName: "psiphon-tunnel-core",

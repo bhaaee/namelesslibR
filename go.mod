@@ -11,6 +11,10 @@ require (
 require (
 	github.com/Psiphon-Labs/goarista v0.0.0-20160825065156-d002785f4c67 // indirect
 	github.com/Psiphon-Labs/psiphon-tunnel-core v2.0.23+incompatible // indirect
+	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5 // indirect
+	github.com/aztecrabbit/liblog v0.0.0-20200502094738-7b376e9fb613 // indirect
+	github.com/aztecrabbit/libutils v0.0.0-20200809115922-31372f5a14c5 // indirect
+	github.com/buger/goterm v1.0.4 // indirect
 	github.com/cognusion/go-cache-lru v0.0.0-20150504185022-4768365f7b05 // indirect
 	github.com/juju/ratelimit v1.0.1 // indirect
 	github.com/miekg/dns v1.1.48 // indirect
@@ -20,6 +24,7 @@ require (
 )
 
 require (
+	github.com/aztecrabbit/libproxyrotator v0.0.0-20200502094650-114e8cd9a2c4
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
 	github.com/fsnotify/fsnotify v1.5.3 // indirect
