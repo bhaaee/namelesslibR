@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/psiphon"
+	psi "https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/psiphon"
 )
 
 var (
