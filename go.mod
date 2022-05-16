@@ -1,4 +1,4 @@
-module github.com/2dust/AndroidLibXrayLite
+module github.com/bhaaee/namelesslibR
 
 go 1.18
 
