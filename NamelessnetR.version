@@ -1,0 +1,14 @@
+{
+    "versionCode":1,
+    "versionName":"v3.2.0",
+    "url":"https://play.google.com/store/apps/details?id=namelessnet.org",
+    "v7url":"",
+    "v8url":"k",
+    "updateTitle":"v3.2.0 Test version update",
+    "updateTitleEnglish":"v3.2.0 beta Released",
+    "updateContent":"1、Added in-app update function, no need to go to Google Store to update\n2, add export to file function\n3, add one-click speed sorting function\n4, some other optimizations\nCome and update to use it, download pages in some areas may be required It can only be opened after the proxy is turned on",
+    "updateContentEnglish":"1. Add in-app update function, no need to go to Google Store to update\n2, add export to file function\n3, add one-key speed measurement sorting function\n4, some other optimizations",
+    "force":0,
+    "content":"Welcome to use NamelessnetR. The new version of NamelessnetR now supports proxy protocols such as Vmess, VLESS, Trojan, Socks, Shadowsocks, etc., adding subscription functions and various custom rules. Use questions can be communicated in the Tg exchange group.",
+    "contentEnglish":"Welcome to the NamelessnetR. The new version of NamelessnetR now supports Vmess, VLESS, Trojan, Socks, Shadowsocks proxy protocols,and adds subscription functions and various custom rules.\nUse problems can be communicated in the Telegram group."
+}
